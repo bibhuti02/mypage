@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    background: linear-gradient(45deg, #f0ebeb, #e6eeeb);
 }
 
 .calculator{
@@ -21,7 +21,7 @@ body{
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    box-shadow: 0px 3px 15px rgb(25, 25, 27);
 
 }
 
@@ -35,11 +35,11 @@ input{
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 input::placeholder{
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 button{
@@ -47,18 +47,19 @@ button{
     width: 60px;
     height: 60px;
     margin: 10px;
-    border-radius: 50%;
+    border-radius: 20%;
     background: transparent;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: 20px;
-    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    box-shadow: -8px -8px 15px rgba(22, 22, 22, 0.1);
+    /* box-shadow: #0a0a0a; */
     cursor: pointer;
 }
 
 .equalBtn{
-    background-color: #fb7c14;
+    background-color: #6762f8;
 }
 
 .operator{
-    color: #6dee0a;
+    color: #4447f0;
 }
